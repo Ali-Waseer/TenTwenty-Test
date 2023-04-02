@@ -1,0 +1,29 @@
+.lineUp {
+  animation: 2s blurFadeIn 3s ease-in;
+}
+@keyframes blurFadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(80%);
+  }
+  20% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+@import url('https://fonts.googleapis.com/css?family=Barlow');
+
+body {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: 'Barlow', sans-serif;
+}
